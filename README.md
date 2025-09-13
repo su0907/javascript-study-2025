@@ -1,23 +1,29 @@
 # JavaScript & CSS Study
 
-> 인하공업전문대학 웹 개발 강의 학습 자료
+> 인하공업전문대학 자바스크립트 강의 학습 자료
 
 ## 폴더 구조
 
 ```
-javascript-study-2025/
-├── C1_game.html              # 가위바위보 게임
-├── C2_boxModel1.html         # CSS 박스 모델
-├── C2_floating1.html         # 플로팅 레이아웃
-├── C2_layout1.html           # 웹페이지 레이아웃
-├── C2_position2.html         # CSS 포지셔닝
-├── C2_selector1.html         # CSS 선택자 (ID, Class)
-├── C2_selector2.html         # CSS 속성 선택자
-├── C2_selector4.html         # CSS 우선순위
-├── Example8-3.html           # innerHTML 활용
-├── Example8-4.html           # this 키워드 활용
-├── Example8-10.html          # DOM 요소 생성/삭제
-├── Practice8-3.html          # 숨은 단어 게임
+javascript/
+├── practice/
+│   └── Practice_Selector.html    # CSS 선택자 연습
+├── week1/
+│   └── C1_game.html             # 가위바위보 게임
+├── week2/
+│   ├── C2_boxModel1.html        # CSS 박스 모델
+│   ├── C2_floating1.html        # 플로팅 레이아웃
+│   ├── C2_position2.html        # CSS 포지셔닝
+│   ├── C2_selector1.html        # CSS 선택자 (ID, Class)
+│   ├── C2_selector2.html        # CSS 속성 선택자
+│   └── C2_selector4.html        # CSS 우선순위
+├── week3/
+│   ├── C2_layout1.html          # 웹페이지 레이아웃
+│   ├── Example8-3.html          # innerHTML 활용
+│   ├── Example8-4.html          # this 키워드 활용
+│   ├── Example8-10.html         # DOM 요소 생성/삭제
+│   └── Practice8-3.html         # 숨은 단어 게임
+├── .gitignore
 └── README.md
 ```
 
