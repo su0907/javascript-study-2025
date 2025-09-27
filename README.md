@@ -23,6 +23,28 @@ javascript/
 │   ├── Example8-4.html          # this 키워드 활용
 │   ├── Example8-10.html         # DOM 요소 생성/삭제
 │   └── Practice8-3.html         # 숨은 단어 게임
+├── week4/
+│   ├── C4_callback2.html        # 콜백 함수
+│   ├── C4_callback3.html        # 콜백 함수 응용
+│   ├── C4_functionArrow1.html   # 화살표 함수
+│   ├── C4_interation5.html      # 반복문
+│   ├── C4_iteration3.html       # 배열 순회
+│   ├── C4_querySelector.html    # querySelector 사용법
+│   ├── C4_selection3.html       # DOM 요소 선택
+│   ├── C4_sequence.html         # 순차 처리
+│   └── C4_Timer2.html           # 타이머 함수
+├── week5/
+│   ├── C5_appendChild.html      # 자식 요소 추가
+│   ├── C5_ClickCount.html       # 클릭 카운터
+│   ├── C5_createElement.html    # 동적 요소 생성
+│   ├── C5_innerHTMl.html        # innerHTML 조작
+│   ├── C5_movingStar.html       # 별 이동 애니메이션
+│   ├── C5_querySelector.html    # querySelector 심화
+│   ├── C5_querySelectorAll.html # 다중 요소 선택
+│   ├── C5_removeChild.html      # 자식 요소 제거
+│   ├── C5_removeEventListener.html # 이벤트 리스너 제거
+│   ├── C5_setAttribute.html     # 속성 설정
+│   └── C5_textCount.html        # 텍스트 카운터
 ├── .gitignore
 └── README.md
 ```
@@ -35,6 +57,15 @@ javascript/
 - **DOM 조작**: getElementById, innerHTML, createElement
 - **이벤트 처리**: onclick, 동적 스타일 변경
 - **숨은 단어 게임**: visibility 속성, 배열 순회
+
+### JavaScript 심화 (Week 4-5)
+
+- **화살표 함수**: ES6 문법, 콜백 함수
+- **DOM 조작 심화**: querySelector, querySelectorAll
+- **동적 요소 제어**: createElement, appendChild, removeChild
+- **이벤트 관리**: addEventListener, removeEventListener
+- **타이머 함수**: setInterval, setTimeout
+- **애니메이션**: 요소 이동, 동적 스타일 변경
 
 ### CSS 레이아웃
 
