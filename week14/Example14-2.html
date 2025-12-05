@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 문서 객체 생성하기
+            const header = document.createElement('h');
+
+            header.textContent = '문서 객체 동적으로 생성하기';
+            header.style.color = 'white';
+            header.style.backgroundColor = 'black';
+            header.style.fontSize = '20px';
+
+            // body 아래에 h 추가
+            document.body.appendChild(header);
+        });
+    </script>
+</head>
+
+<body>
+</body>
+</html>

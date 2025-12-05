@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>옵션 선택시 새 윈도우에서 사이트 접속</title>
+    <script>
+        function loadSite(select) {
+            let index = select.selectedIndex;
+            let site = select.options[index].value;
+            window.open(site, "myWin", "left=200, top=200, width=500, height=400");
+        }
+    </script>
+</head>
+<body>
+    <h3>옵션 선택으로 사이트 접속하기</h3>
+    <hr>
+    <form>
+        <p>접속할 사이트</p>
+        <select onchange="loadSite(this)">
+            <option value="https://www.naver.com">네이버</option>
+            <option value="https://www.google.com">구글</option>
+            <option value="https://www.oracle.com">오라클</option>
+        </select>
+    </form>
+</body>
+</html>

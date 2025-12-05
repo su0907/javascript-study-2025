@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const rects = document.querySelectorAll('.rect');
+
+            rects.forEach((rect, index) => {
+                const width = (index + 1) * 100;   // 각 이미지의 너비 설정
+                const img = `media/img${index + 1}.png`; // 이미지 경로 설정
+
+                rect.setAttribute('src', img);           // src 업데이트
+                rect.setAttribute('width', `${width}px`); // width 업데이트
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <img class="rect">
+    <img class="rect">
+    <img class="rect">
+    <img class="rect">
+</body>
+</html>
